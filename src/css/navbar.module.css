@@ -1,0 +1,117 @@
+.nav-header {
+    justify-content: flex-end;
+    display: flex;
+    padding: 1rem 1.25rem;
+    margin-top:-25rem;
+     margin-left: 11.5rem;
+}
+.nav-center{
+    border-top: 1px solid #CCCDCE;
+    border-bottom: 1px solid #CCCDCE;
+} 
+.logo-btn {
+    position: fixed;
+    background-color:white;
+    right: 15px;
+    top: 10px;
+    padding: 6px 12px;
+    border-radius: 0;
+}
+.logo-icon {
+    color:#0099FF;
+    font-size: 1.5rem;
+}
+.logoImg{
+    width: 100%;
+}
+.tm-logo {
+    top: 0;
+    left: 34px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #9C9D9E;
+    height: 200px;
+    padding: 50px 40px;
+}
+ .logo-industry{
+    width: 117%;
+    height: 5rem;
+    margin-left: -5rem;
+    margin-right: -9rem;
+ }
+.tmLogoText {
+    font-size: 2rem;
+    margin-left: 7rem;
+    margin-top: 0rem;
+    text-transform: uppercase;
+}
+.nav-links {
+    list-style-type: none;
+    transition: var(--mainTransition);
+    height: 0;
+    overflow: hidden;
+    margin-left: 11.5rem;
+}
+.show-nav {
+    height: 100%;
+}
+
+.nav-links a {
+    display: block;
+    color: #6A6B6C;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    padding: 30px 49px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+} 
+.nav-links a:hover{
+    color: #0099FF;
+    border-top: 8px solid #0099FF;
+    border-bottom: 8px solid #0099FF;
+} 
+@media screen and (max-width: 992px) {
+   .nav-links a {
+    color: #6A6B6C;
+    background-color: white;
+    width: 175px;
+    height: 10px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 992px) {
+.logoImg{
+    height: 212px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 992px) {
+  .tm-logo {
+    position: absolute;
+   width: 400px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .logo-btn {
+    display: none;
+  }
+
+  .nav-center {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-links {
+    height: auto;
+    display: flex;
+  }
+}
+
+
