@@ -1,10 +1,9 @@
 import React, { useState } from "react"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import styles from "../css/navbar.module.css"
 import { FaBars, FaIndustry } from "react-icons/fa"
 import links from "../constants/links"
 import logo from "../images/logo.png"
-
 
 const Navbar = () => {
   const [isOpen, setNav] = useState()
@@ -18,7 +17,7 @@ const Navbar = () => {
         <FaIndustry className={styles.logoIndustry} />
         <span className={styles.textUppercase, styles.tmLogoText}>Business Oriented</span>
       </div>
-      <img src={logo} className={styles.logoImg} alt="bussines oriented" data-parallax="scroll" />
+      <img src={logo} className={styles.logoImg} alt="bussines oriented"/>
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
           <button type="button" className={styles.logoBtn} onClick={toggleNav}>
@@ -34,10 +33,9 @@ const Navbar = () => {
           {links.map((item, index) => {
             return (
               <li key={index} className={styles.navItem}>
-                <Link className={styles.navClick}
-                  to={item.path}>
+                <AniLink fade className={styles.navClick} to={item.path}>
                   {item.text}
-                </Link>
+                </AniLink>
               </li>
             )
           })}

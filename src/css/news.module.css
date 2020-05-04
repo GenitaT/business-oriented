@@ -1,0 +1,36 @@
+.news{
+    margin: 8rem 0 0 2rem;
+}
+.test{
+      display: inline-block;
+}
+.title{
+    font-size: 1.75rem;
+    color: #666;
+    text-decoration: underline;
+    text-decoration-color: #0099FF;
+}
+.news h4{
+    color: #0099FF;
+    line-height: 1.2;
+    font-size: 18px;
+    margin: 3rem 0 0 .5rem;
+    font-weight: 500;
+}
+.news p{ 
+    color: #666;
+    line-height: 1.9;
+    font-size: 18px;
+    margin-top: 3rem;
+}
+@media screen and (min-width: 992px) {
+.img-style{
+    margin: -8rem 3rem  0 0;
+ }
+}
+
+@media screen and (min-width: 992px) {
+.news p{
+         width: 27rem;
+   }
+}

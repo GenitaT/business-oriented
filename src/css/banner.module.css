@@ -1,0 +1,36 @@
+.banner {
+    max-width: 660px;
+    padding: 75px 70px;
+    background-color: rgba(255,255,255,0.6);
+}
+.banner  h4 {
+    color: #0099FF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.banner p {
+    color: #666;
+    line-height: 1.9;
+    margin-bottom:2rem;
+}
+a.btn-primary {
+    background-color: #0099FF;
+    border-color: #0099FF;
+    padding: 15px 50px;
+    border-radius: 0;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: blink;
+}
+
+.btn-primary:hover {
+    background-color: #2f80d0;
+    border-color: #2f80d0;
+}
+@media screen and (min-width: 992px) {
+.banner p {
+     width: 26.4rem;
+      margin-bottom: 3rem;
+  }
+}

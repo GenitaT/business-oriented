@@ -1,0 +1,47 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 70px 0 70px 0;
+    flex-wrap:wrap;
+}
+.copyright {
+    margin-left: 2rem;
+    font-size: 19px;
+    color: #666;
+}
+.icons{
+    max-width: 25%;
+    margin-right: 3rem;
+    transition: all 0.3s ease;
+}
+a.social-links {
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    transition: all 0.3s ease;
+    margin-left: 2rem;
+}
+.text-primary {
+    color: #0099FF;
+}
+.link-primary {
+    color: #0099FF;
+    text-decoration: none;
+    margin-left: 4px;
+}
+path {
+    color:#ABC;
+}
+@media screen and (max-width: 992px) {
+  .copyright {
+    margin-left:1rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+.icons{
+    display: flex;
+    margin: 3rem 0 0 9rem;
+ }
+}
