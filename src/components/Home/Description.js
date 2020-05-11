@@ -2,16 +2,12 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import styles from "../../css/description.module.css"
 import background from "../../images/biz-oriented-1.jpg"
-import first from "../../images/strategy-1.jpg"
-import second from "../../images/strategy-2.jpg"
-import third from "../../images/strategy-3.jpg"
+
 const getSiteData = graphql`
   query {
     site {
       siteMetadata {
         title
-        firstDescription
-        secondDescription
         author
         data {
           name
@@ -31,10 +27,14 @@ const Description = () => {
           <div className={styles.description}>
             <span className={styles.title}>{data.site.siteMetadata.title}</span>
             <p className={styles.text}>
-              {data.site.siteMetadata.firstDescription}
+              Header is a parallax background just like in Real Dynamic design
+              on TemplateMo. Business Oriented HTML Template is specifically
+              designed for your corporate website.
             </p>
             <p className={styles.text}>
-              {data.site.siteMetadata.secondDescription}
+              You can download and use this template for your commercial
+              purpose. Please do not re-distribute the template ZIP file on any
+              template collection website.,
             </p>
             <img
               src={background}

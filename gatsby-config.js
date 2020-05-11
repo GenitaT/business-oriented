@@ -4,10 +4,8 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "What is a Business Oriented Website?",
-    firstDescription:
+    descriptiom:
       "Header is a parallax background just like in Real Dynamic design on TemplateMo. Business Oriented HTML Template is specifically designed for your corporate website.",
-    secondDescription:
-      "You can download and use this template for your commercial purpose. Please do not re-distribute the template ZIP file on any template collection website.",
     author: "genita@starlabspro.com",
     data: {
       name: "Genita Tahiri",
@@ -20,14 +18,6 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
     `gatsby-plugin-sass`,

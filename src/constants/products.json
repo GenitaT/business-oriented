@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Lenovo Core i7 8th Gen",
+        "description": "(8 GB/1 TB HDD/Windows 10 Home/2 GB Graphics) L340-15IWL Laptop  (15.6 inch, Granite Black, 2.2 kg)",
+        "image": "https://rukminim1.flixcart.com/image/416/416/k1118cw0/computer/a/z/z/lenovo-original-imafkzrne5bpzjjy.jpeg?q=70",
+        "type": "lenovo"
+    },
+    {
+        "title": "Lenovo Y520 Core i7 7th Gen",
+        "description": "(16 GB/1 TB HDD/128 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 1050Ti) Y520-15IKBN Gaming Laptop",
+        "image" : "https://rukminim1.flixcart.com/image/416/416/jmkwya80/computer/k/g/h/lenovo-na-gaming-laptop-original-imaf9gh68d4s66eq.jpeg?q=70",
+        "type": "lenovo"
+    },
+    {
+        "title": "Apple MacBook Pro Core i7 7th Gen",
+        "description": "(16 GB/512 GB SSD/Mac OS Sierra/2 GB Graphics) MPTT2HN/A  (15.4 inch, SPace Grey, 1.83 kg)",
+        "image" : "https://rukminim1.flixcart.com/image/416/416/j4irlow0/computer/y/8/h/apple-na-notebook-original-imaevdwetpghgsze.jpeg?q=70",
+        "type": "macbook"
+    },
+    {
+        "title": "Apple MacBook Pro Core i9 8th Gen",
+        "description": "(16 GB/512 GB SSD/Mac OS Mojave/4 GB Graphics) MV932HN  (15.4 inch, Silver, 1.83 kg)",
+        "image" : "https://rukminim1.flixcart.com/image/416/416/jyq5oy80/computer/w/5/p/apple-na-thin-and-light-laptop-original-imafgwevgryzyn4h.jpeg?q=70",
+        "type": "macbook"
+    },
+    {
+        "title": "Acer Swift 3 Core i5 8th Gen",
+        "description": "(8 GB/512 GB SSD/Windows 10 Home/2 GB Graphics) SF314-55G Thin and Light Laptop  (14 inch, Sparkly Silver, 1.35 kg)",
+        "image" : "https://rukminim1.flixcart.com/image/416/416/k33c4nk0pkrrdj/computer/y/h/k/acer-na-thin-and-light-laptop-original-imafhnvjheyngmvq.jpeg?q=70",
+        "type": "acer"
+    },
+    {
+        "title": "Acer Nitro 5 Ryzen 5 Quad Core",
+        "description": "(8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics/AMD Radeon RX 560X) AN515-43 Gaming Laptop  (15.6 inch, Obsidian Black, 2.3 kg)",
+        "image": "https://rukminim1.flixcart.com/image/416/416/k33c4nk0pkrrdj/computer/2/h/y/acer-na-gaming-laptop-original-imafj5dpnuuy2dvd.jpeg?q=70",
+        "type": "acer"
+    },
+    {
+        "title": "Lenovo Legion Y740 Core i7 9th Gen",
+        "description": "(8 GB/1 TB SSD/Windows 10 Home/6 GB Graphics/NVIDIA Geforce GTX 1660 Ti) Y740-15IRH Gaming Laptop  (15.6 inch, Black, 2.2 kg, With MS Office)",
+        "image": "https://rukminim1.flixcart.com/image/416/416/k5txifk0/computer/6/d/h/lenovo-legion-gaming-laptop-original-imafjhf3yzp895k9.jpeg?q=70",
+        "type": "legion"
+    },
+    {
+        "title": "Lenovo Legion Y540 Core i7 9th Gen",
+        "description": "(16 GB/1 TB SSD/Windows 10/6 GB Graphics/NVIDIA Geforce GTX NVIDIAÂ® GEFORCEÂ® GTX 1660 Ti (6GB)) Y540 Gaming Laptop  (15.6 inch, Black)",
+        "image": "https://rukminim1.flixcart.com/image/416/416/k3orqfk0/computer/e/u/g/lenovo-na-original-imafmreayestghcd.jpeg?q=70",
+        "type": "legion"
+    }
+]

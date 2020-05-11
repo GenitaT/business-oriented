@@ -1,0 +1,19 @@
+
+.text{
+    display: inline-block;
+}
+.item-holder {
+    margin: 2rem 0 0 6rem;
+}
+
+ .button-holder {
+    display: flex;
+   justify-content: center;
+} 
+
+button {
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: .3rem;
+    margin: 1rem 0 0 .5rem;
+}

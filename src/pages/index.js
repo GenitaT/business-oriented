@@ -19,7 +19,6 @@ export default () => (
         <News />
       </div>
     </div>
-
     <Cards />
     <SimpleHero>
       <Banner
